@@ -1,27 +1,14 @@
-import Footer from "./footer";
-import DestinationGallery from "./gallery";
-import Navbar from "./navbar";
-import NewsletterSection from "./newwletter";
-import PackageCard from "./package";
-import Images from "./slider";
-import Testimonials from "./testimonials";
-import TopDestination from "./top";
+import BackGround from "./bg";
+import Package from "./Pakage";
+import TopSection from "./topSection";
 
-function Home() {
+export default function Home() {
   return (
     <>
-          <Navbar />
-          <Images />
-          
-          <PackageCard />
-          <TopDestination />
-          
-          <DestinationGallery />
-          <NewsletterSection/>
-          <Testimonials />
-          <Footer/>
+    <BackGround />
+      <TopSection />
+      <Package/>
+      
     </>
-  );
+  )
 }
-
-export default Home;
