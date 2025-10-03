@@ -1,0 +1,7 @@
+{
+
+    "css.validate": true,
+"less.validate": false,
+"scss.validate": true
+
+}
