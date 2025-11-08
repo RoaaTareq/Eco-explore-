@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Navbar from './components/nav/nav'
 import Button from "./components/button/button";
-import Home from './pages/Home/home'
+import Home from './pages/home/home'
 import About from './pages/About/about'
-import Contact from './pages/About/contact'
+import Contact from './pages/Contact/contact'
 import Login from "./pages/Auth/login";
 import Logo from './assest/images/Logo.png'
 import ForgotPassword from "./pages/Auth/ForgotPassword";
